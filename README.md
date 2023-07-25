@@ -35,4 +35,4 @@ En Lalau, creemos que la moda es un arte y que cada persona es una obra maestra.
 Desde lo más profundo de nuestros corazones, queremos agradecerte por elegirnos. Cada vez que entres en Lalau, estamos emocionados de compartir esta aventura contigo. Somos un equipo apasionado que trabaja con amor y dedicación para ofrecerte la mejor experiencia de compra. Siéntete libre de explorar, inspirarte y brillar con nuestros accesorios.
 
 Con cariño,
-El equipo de Lalau - Tienda de accesorios
+El equipo Lalau - Tienda de accesorios
