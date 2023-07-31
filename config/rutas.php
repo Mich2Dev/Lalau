@@ -14,11 +14,11 @@
                 $inst->$accion();
             } else {
                 
-             header("Location: /");
+             header("Location: /Lalau");
             }
         } else {
            
-            header("Location: /");
+            header("Location: /Lalau");
         }
         
             

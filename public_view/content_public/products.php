@@ -160,6 +160,10 @@
         <img src="../img/p6.jpg" alt="Categoría 3">
         <div class="categoria-nombre">PRODUCTOS DE BELLEZA</div>
       </div>
+      <div class="item">
+        <img src="../img/p7.jpg" alt="Categoría 3">
+        <div class="categoria-nombre">VARIEDADES</div>
+      </div>
       <!-- Agrega más imágenes y categorías aquí -->
     </div>
   </div>
