@@ -13,11 +13,11 @@
             if (method_exists($inst,$accion)) {
                 $inst->$accion();
             } else {
-                
+                //en el servidor las rutas debes dejarlas /
              header("Location: /Lalau");
             }
         } else {
-           
+                //en el servidor las rutas debes dejarlas /
             header("Location: /Lalau");
         }
         
