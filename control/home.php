@@ -8,7 +8,8 @@
     
         public function index()
         {
-         $this->vista->Cargar('public_view/index');    
+         $this->vista->Cargar('public_view/index');  
+           
         }
         public function products()
         {
