@@ -1,2 +1,5 @@
+Options -Indexes
+
 RewriteEngine On
-RewriteRule ^([A-Za-z0-9/]+)/([A-Za-z0-9]+)/?$ index.php?control=$1&accion=$2
+
+RewriteRule ^([A-Za-z0-9/]+)/([A-Za-z0-9]+)/?$ index.php?control=$1&accion=$2 
