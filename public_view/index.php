@@ -122,9 +122,9 @@
         <section id="bienvenida" class="my-5 highlight-section text-center">
             <div class="row">
                 <div class="col-md-6 offset-md-3">
-                    <h2 style="color: #FF00CC; text-shadow: 2px 2px 4px gray;" class="fade-in active">Bienvenidos a Tienda de Accesorios Lalau</h2>
-                    <p style="text-shadow:0px 0px 1px black; font-size:20px;">En Lalau, estamos enfocados en brindarte los mejores productos para realzar tu belleza y estilo personal. Nuestra selección única de collares, pulseras, anillos, pendientes y más te permitirá destacar en cualquier ocasión.</p>
-                    <p style="text-shadow:0px 0px 1px black; font-size:20px;">Nos enorgullecemos de la calidad y la artesanía de nuestros accesorios, cuidadosamente seleccionados para ofrecerte diseños exclusivos que reflejen tu personalidad y te hagan sentir extraordinaria. Explora nuestra amplia gama de accesorios y encuentra el complemento perfecto para tu atuendo.</p>
+                <h2 style="color: #E93E63; text-shadow: 2px 2px 4px gray;" class="fade-in active">Bienvenidos a Tienda de Accesorios Lalau</h2>
+            <p style="color: #34495E; text-shadow: 2px 2px 4px gray;" class="fade-in active">En Lalau, te ofrecemos los mejores productos para realzar tu belleza y estilo. Nuestra selección única de accesorios te permitirá destacar en cualquier ocasión. Nos enorgullecemos de la calidad y artesanía de nuestros diseños exclusivos que reflejan tu personalidad. Encuentra el complemento perfecto para tu atuendo</p>
+
                     <a href="#" class="btn btn-primary btn-lg">Conoce más sobre nosotros</a>
                 </div>
             </div>
