@@ -1,8 +1,2 @@
 RewriteEngine On
-
-# Excluir las solicitudes de archivos con extensiones comunes de imágenes
-RewriteCond %{REQUEST_URI} !\.(jpg|jpeg|png|gif|bmp|ico)$
-
-# Aplicar la regla de reescritura solo a las solicitudes que no correspondan a archivos existentes
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([a-zA-Z0-9/]+)/([^/]+) index.php?control=$1&accion=$2 [QSA,L]
+RewriteRule ^([A-Za-z0-9/]+)/([A-Za-z0-9]+)/?$ index.php?control=$1&accion=$2
