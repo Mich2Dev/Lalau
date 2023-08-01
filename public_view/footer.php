@@ -107,7 +107,9 @@
 
   <!-- Agregar versión inicial del proyecto -->
   <p>¡Gracias por visitar Accesorios Lalau!</p>
-  <p>Creado con mucho cariño para ti (By Mich).</p>
+  <div class="container">
+        &copy; 2023 Tienda de Accesorios Lalau. Todos los derechos reservados.
+    </div>
 </footer>
 
 <!-- Librería Font Awesome -->
