@@ -108,7 +108,7 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#" style="color: #fff; font-size: 18px; font-weight: bold; margin-right: 20px; text-decoration: none; text-transform: uppercase; padding: 8px 15px; transition: background-color 0.3s ease;">Inicio</a>
+                            <a class="nav-link" href="home/index" style="color: #fff; font-size: 18px; font-weight: bold; margin-right: 20px; text-decoration: none; text-transform: uppercase; padding: 8px 15px; transition: background-color 0.3s ease;">Inicio</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="home/products" style="color: #fff; font-size: 18px; font-weight: bold; margin-right: 20px; text-decoration: none; text-transform: uppercase; padding: 8px 15px; transition: background-color 0.3s ease;">Productos</a>
