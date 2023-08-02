@@ -139,7 +139,7 @@
                 <div class="col-md-4">
                     <div class="producto-card fade-in active">
                         <h3 style="color: #f18ca4;">Accesorios</h3>
-                        <img src="ruta-de-la-imagen.jpg" alt="Accesorio y moda"
+                        <img src="../img_public/accesorios.jpg" alt="Accesorio y moda"
                             class="img-fluid rounded-circle mb-3">
                         <p style="color: #444;">Este elegante collar es perfecto para ocasiones especiales o para un look casual.
                             El dije en forma de corona le agrega un toque atomicidad a tu look.</p>
@@ -149,7 +149,7 @@
                 <div class="col-md-4">
                     <div class="producto-card fade-in active">
                         <h3 style="color: #f18ca4;">Maquillajes</h3>
-                        <img src="ruta-de-la-imagen.jpg" alt="Belleza y estetica"
+                        <img src="../img_public/maquillajes.jpg" alt="Belleza y estetica"
                             class="img-fluid rounded-circle mb-3">
                         <p style="color: #444;">¡Descubre nuestros maquillajes exclusivos! Resalta tu belleza con productos únicos. Perfectos para cada ocasión, realza tu estilo con maquillaje de calidad.</p>
                         <a href="#" class="btn btn-primary">Ver Mas</a>
@@ -158,7 +158,7 @@
                 <div class="col-md-4">
                     <div class="producto-card fade-in active">
                         <h3 style="color: #f18ca4;">Perfumes</h3>
-                        <img src="ruta-de-la-imagen.jpg" alt="Fragancias"
+                        <img src="../img_public/perfumes.jpg" alt="Fragancias"
                             class="img-fluid rounded-circle mb-3">
                         <p style="color: #444;">Descubre esta fragancia: un clásico que nunca pasa de moda. Ideal para ocasiones especiales, te hará destacar con elegancia..</p>
                         <a href="#" class="btn btn-primary">Ver Mas</a>

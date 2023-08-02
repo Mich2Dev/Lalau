@@ -9,6 +9,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <!-- Agregar la hoja de estilos de Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Enlace a la hoja de estilos de FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
     <!-- Estilos personalizados -->
     <style>
         body {
@@ -92,14 +95,21 @@
             }
         }
 
+        @media (max-width: 768px) {
+            /* Estilos para centrar el contenido del header en resoluciones pequeñas */
+            .navbar {
+                justify-content: center;
+            }
+        }
+
     </style>
 </head>
 
 <body>
     <!-- Encabezado -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #f18ca4;"> <!-- Cambiar el color de fondo del navbar a fucsia -->
-            <div class="container"> <!-- Agregar la clase 'container' -->
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #f18ca4;">
+            <div class="container">
                 <a class="navbar-brand" href="#" style="font-size: 32px; font-weight: bold; color: #fff; text-decoration: none; letter-spacing: 2px;">Accesorios Lalau</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -108,16 +118,29 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="home/index" style="color: #fff; font-size: 18px; font-weight: bold; margin-right: 20px; text-decoration: none; text-transform: uppercase; padding: 8px 15px; transition: background-color 0.3s ease;">Inicio</a>
+                            <a class="nav-link" href="home/index">
+                                <i class="fas fa-home" style="margin-right: 5px;"></i>Inicio
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="home/products" style="color: #fff; font-size: 18px; font-weight: bold; margin-right: 20px; text-decoration: none; text-transform: uppercase; padding: 8px 15px; transition: background-color 0.3s ease;">Productos</a>
+                            <a class="nav-link" href="home/products">
+                                <i class="fas fa-box-open" style="margin-right: 5px;"></i>Productos
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#nosotros" style="color: #fff; font-size: 18px; font-weight: bold; margin-right: 20px; text-decoration: none; text-transform: uppercase; padding: 8px 15px; transition: background-color 0.3s ease;">Nosotros</a>
+                            <a class="nav-link" href="#carrito">
+                                <i class="fas fa-shopping-cart" style="margin-right: 5px;"></i>Carrito
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#contacto" style="color: #fff; font-size: 18px; font-weight: bold; margin-right: 20px; text-decoration: none; text-transform: uppercase; padding: 8px 15px; transition: background-color 0.3s ease;">Contacto</a>
+                            <a class="nav-link" href="#contacto">
+                                <i class="fas fa-sign-in-alt" style="margin-right: 5px;"></i>Log In
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto">
+                                <i class="fas fa-envelope" style="margin-right: 5px;"></i>Contacto
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -127,11 +150,11 @@
 
     <!-- Resto del contenido de la página -->
 
-    <!-- Enlace al archivo de scripts de Bootstrap -->
+    <!-- Enlace al archivo de scripts de Bootstrap y FontAwesome -->
+    <!-- Recuerda agregar los enlaces necesarios aquí -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
-
 </body>
 
 </html>
