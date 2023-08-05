@@ -5,66 +5,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accesorios Lalau</title>
-    <!-- Agregar la hoja de estilos de Google Fonts para la fuente Roboto -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <!-- Agregar la hoja de estilos de Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Enlace a la hoja de estilos de FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-
-    <!-- Estilos personalizados -->
     <style>
         body {
             background-color: #f2f2f2;
-            font-family: 'Roboto', sans-serif; /* Utilizar la fuente Roboto */
+            font-family: 'Roboto', sans-serif;
         }
 
         header {
-            background-color: #f18ca4; /* Color de fondo fucsia */
+            background-color: #f18ca4;
             padding: 15px 0;
-            position: relative; /* Posición relativa para los elementos decorativos */
+            position: relative;
         }
 
-        /* Estilos para el nombre de la página (navbar-brand) */
         .navbar-brand {
-            font-family: 'Roboto', sans-serif; /* Fuente Roboto */
+            font-family: 'Roboto', sans-serif;
             font-size: 32px;
             font-weight: bold;
             text-decoration: none;
-            letter-spacing: 2px; /* Espaciado entre letras */
-            color: #fff; /* Texto en color blanco */
+            letter-spacing: 2px;
+            color: #fff;
+            transition: opacity 0.3s ease;
         }
 
         .navbar-brand:hover {
-            opacity: 0.8; /* Reducir opacidad al pasar el cursor */
+            opacity: 0.8;
         }
 
         .navbar-nav .nav-link {
-            color: #fff; /* Color del texto de los enlaces */
+            color: #fff;
             font-size: 18px;
             font-weight: bold;
-            margin-right: 20px; /* Mayor espacio entre enlaces */
+            margin-right: 20px;
             text-decoration: none;
-            text-transform: uppercase; /* Texto en mayúsculas */
-            padding: 8px 15px; /* Ajustar el relleno */
-            transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+            text-transform: uppercase;
+            padding: 8px 15px;
+            transition: background-color 0.3s ease, color 0.3s ease;
         }
 
         .navbar-nav .nav-link:hover {
-            animation: colorChange 2s infinite alternate; /* Animación para el cambio de colores al pasar el cursor */
-            color: #fff; /* Texto en color blanco al pasar el cursor */
+            color: #f18ca4;
         }
 
-        /* Estilos para el borde decorativo */
         .navbar::before,
         .navbar::after {
             content: '';
             position: absolute;
             width: 100%;
             height: 4px;
-            background: linear-gradient(45deg, #e62893, #f18ca4, #ec609c, #ffcc00, #ec609c, #f18ca4, #e62893); /* Degradado fucsia con reflejos dorados */
-            background-size: 200% 100%; /* Aumentar el tamaño del degradado en el eje X */
-            animation: moveGradient 5s linear infinite; /* Animación para el movimiento del degradado */
+            background: linear-gradient(45deg, #e62893, #f18ca4, #ec609c, #ffcc00, #ec609c, #f18ca4, #e62893);
+            background-size: 200% 100%;
+            animation: moveGradient 5s linear infinite;
         }
 
         .navbar::before {
@@ -75,7 +68,6 @@
             bottom: 0;
         }
 
-        /* Animación para el movimiento del degradado */
         @keyframes moveGradient {
             0% {
                 background-position: 0 50%;
@@ -85,32 +77,29 @@
             }
         }
 
-        /* Animación para el cambio de colores al pasar el cursor */
         @keyframes colorChange {
             0% {
-                background: linear-gradient(45deg, #f18ca4, #ec609c, #e62893); /* Inicio de la animación */
+                background: linear-gradient(45deg, #f18ca4, #ec609c, #e62893);
             }
             100% {
-                background: linear-gradient(45deg, #e62893, #f18ca4, #ec609c); /* Fin de la animación */
+                background: linear-gradient(45deg, #e62893, #f18ca4, #ec609c);
             }
         }
 
         @media (max-width: 768px) {
-            /* Estilos para centrar el contenido del header en resoluciones pequeñas */
             .navbar {
                 justify-content: center;
             }
         }
-
     </style>
 </head>
 
 <body>
     <!-- Encabezado -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #f18ca4;">
+        <nav class="navbar navbar-expand-lg navbar-light bg-pink-500">
             <div class="container">
-                <a class="navbar-brand" href="#" style="font-size: 32px; font-weight: bold; color: #fff; text-decoration: none; letter-spacing: 2px;">Accesorios Lalau</a>
+                <a class="navbar-brand text-white" href="#">Accesorios Lalau</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -145,13 +134,12 @@
                     </ul>
                 </div>
             </div>
+            </div>
         </nav>
     </header>
 
     <!-- Resto del contenido de la página -->
 
-    <!-- Enlace al archivo de scripts de Bootstrap y FontAwesome -->
-    <!-- Recuerda agregar los enlaces necesarios aquí -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>

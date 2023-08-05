@@ -88,7 +88,7 @@
 </head>
 <body>
 
-<footer>
+<footer class="bg-pink-500 text-white py-6">
   <div class="footer-container">
     <div class="footer-left">
       <h3>Información de contacto</h3>
@@ -106,7 +106,7 @@
   </div>
 
   <!-- Agregar versión inicial del proyecto -->
-  <p>¡Gracias por visitar Accesorios Lalau!</p>
+  <p style="text-shadow:1px 1px 1px py">¡Gracias por visitar Accesorios Lalau!</p>
   <div class="container">
         &copy; 2023 Tienda de Accesorios Lalau. Todos los derechos reservados.
     </div>
