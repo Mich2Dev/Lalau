@@ -18,7 +18,7 @@
     footer {
       background-color: #f18ca4; /* Color de fondo fucsia */
       color: #fff;
-      padding: 15px 0;
+      padding: 10px 0; /* Ajusta el padding superior e inferior según tus preferencias */
       text-align: center;
     }
 
@@ -28,6 +28,7 @@
       margin: 0 auto;
       display: flex;
       justify-content: center; /* Centrar el contenido horizontalmente */
+      padding: 0 20px; /* Ajusta el padding lateral del footer-container */
     }
 
     .footer-left, .footer-right {
@@ -93,7 +94,7 @@
     <div class="footer-left">
       <h3>Información de contacto</h3>
       <p>Email: AccesoriosLalau@gmail.com</p>
-      <p>Teléfono:(+57) 301***5775</p>
+      
     </div>
     <div class="footer-right">
       <h3>Redes sociales</h3>
@@ -106,11 +107,13 @@
   </div>
 
   <!-- Agregar versión inicial del proyecto -->
-  <p style="text-shadow:1px 1px 1px py">¡Gracias por visitar Accesorios Lalau!</p>
-  <div class="container">
+ <div class="container">
         &copy; 2023 Tienda de Accesorios Lalau. Todos los derechos reservados.
-    </div>
+  </div>
+  <!-- Agregar la versión de la página -->
+  <small style="display: block; text-align: center; margin-top: 10px;">(Versión 2.0.1)</small>
 </footer>
+
 
 <!-- Librería Font Awesome -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">

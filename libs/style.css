@@ -1,0 +1,41 @@
+h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+.container{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: auto;
+    margin-top: 150px;
+    border:solid black 1px;
+    width: 75vw;
+    height: 50vh;
+    box-shadow: 2px 5px 2px rgb(122, 120, 120);
+    border-radius: 15px;
+
+}
+.botonera{
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 1px 2px 1px gray;
+} 
+.log_in_user{
+    margin-left: 29px;
+    border-radius: 50% 0% 50% 0%;
+    
+}
+.log_in_user2{
+    border-radius: 50% 0% 50% 0%;
+    
+}
+label{
+    text-shadow: 1px 2px 1px gray;
+}
+
+.log_in_user::placeholder{
+    color:rgb(60, 60, 60);
+    text-shadow: 2px 3px 2px rgb(60, 60, 60);
+}
+.log_in_user2::placeholder{
+    color:rgb(60, 60, 60);
+    text-shadow: 2px 3px 2px rgb(60, 60, 60);
+}

@@ -5,29 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accesorios Lalau</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <style>
         body {
-            background-color: #f2f2f2;
-            font-family: 'Roboto', sans-serif;
+            background-color: #f8f9fa;
+            font-family: 'Playfair Display', serif;
         }
 
         header {
-            background-color: #f18ca4;
-            padding: 15px 0;
-            position: relative;
+            background: linear-gradient(45deg, #ff69b4, #ff1493);
+            padding: 5px 0; /* Ajusta el valor de padding aquí */
+            margin-bottom: 5px; /* Ajusta el valor de margin aquí */
+            border-bottom: 2px solid #fff;
         }
 
         .navbar-brand {
-            font-family: 'Roboto', sans-serif;
-            font-size: 32px;
+            font-family: 'Playfair Display', serif;
+            font-size: 20px; /* Ajusta el tamaño de la fuente aquí */
             font-weight: bold;
             text-decoration: none;
-            letter-spacing: 2px;
+            letter-spacing: 1px;
             color: #fff;
-            transition: opacity 0.3s ease;
+            display: flex;
+            align-items: center;
         }
 
         .navbar-brand:hover {
@@ -36,59 +38,38 @@
 
         .navbar-nav .nav-link {
             color: #fff;
-            font-size: 18px;
+            font-size: 16px; /* Ajusta el tamaño de la fuente aquí */
             font-weight: bold;
-            margin-right: 20px;
+            margin-right: 15px; /* Ajusta el valor de margin-right aquí */
             text-decoration: none;
             text-transform: uppercase;
-            padding: 8px 15px;
-            transition: background-color 0.3s ease, color 0.3s ease;
+            padding: 5px 10px; /* Ajusta el valor de padding aquí */
         }
 
         .navbar-nav .nav-link:hover {
             color: #f18ca4;
         }
 
-        .navbar::before,
-        .navbar::after {
-            content: '';
-            position: absolute;
-            width: 100%;
-            height: 4px;
-            background: linear-gradient(45deg, #e62893, #f18ca4, #ec609c, #ffcc00, #ec609c, #f18ca4, #e62893);
-            background-size: 200% 100%;
-            animation: moveGradient 5s linear infinite;
-        }
-
-        .navbar::before {
-            top: 0;
-        }
-
-        .navbar::after {
-            bottom: 0;
-        }
-
-        @keyframes moveGradient {
-            0% {
-                background-position: 0 50%;
-            }
-            100% {
-                background-position: 200% 50%;
-            }
-        }
-
-        @keyframes colorChange {
-            0% {
-                background: linear-gradient(45deg, #f18ca4, #ec609c, #e62893);
-            }
-            100% {
-                background: linear-gradient(45deg, #e62893, #f18ca4, #ec609c);
-            }
-        }
-
         @media (max-width: 768px) {
             .navbar {
                 justify-content: center;
+            }
+        }
+
+        /* Estilos de la corona de princesa */
+        .princess-crown-header {
+            color: gold;
+            font-size: 1em; /* Ajusta el tamaño de la fuente aquí */
+            margin-right: 5px; /* Ajusta el valor de margin-right aquí */
+            animation: pulse 1.5s infinite alternate;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            100% {
+                transform: scale(1.1);
             }
         }
     </style>
@@ -97,15 +78,17 @@
 <body>
     <!-- Encabezado -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-pink-500">
+        <nav class="navbar navbar-expand-lg navbar-light" style="background: linear-gradient(45deg, #ff69b4, #ff1493);">
             <div class="container">
-                <a class="navbar-brand text-white" href="#">Accesorios Lalau</a>
+                <a class="princess-crown-header fas fa-crown" href="#" style="text-decoration: none; color: gold;"></a>
+                <a class="navbar-brand" href="#">Accesorios Lalau</a>
+         <a class="princess-crown-header fas fa-crown" href="#" style="text-decoration: none; color: gold;"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link" href="home/index">
                                 <i class="fas fa-home" style="margin-right: 5px;"></i>Inicio
@@ -122,7 +105,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#contacto">
+                            <a class="nav-link" href="\public_view\content_public\login.php">
                                 <i class="fas fa-sign-in-alt" style="margin-right: 5px;"></i>Log In
                             </a>
                         </li>
@@ -133,7 +116,6 @@
                         </li>
                     </ul>
                 </div>
-            </div>
             </div>
         </nav>
     </header>
