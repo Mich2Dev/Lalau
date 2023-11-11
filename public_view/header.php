@@ -104,8 +104,11 @@
                                 <i class="fas fa-shopping-cart" style="margin-right: 5px;"></i>Carrito
                             </a>
                         </li>
+
+                <!--NO OLVIDES CORREGIR LAS RUTAS CUANDO ESTES EN EL SERVIDOR-->
+                <!--/Lalau/public_view/content_public/login.php-->
                         <li class="nav-item">
-                            <a class="nav-link" href="\public_view\content_public\login.php">
+                            <a class="nav-link" href="home/login">
                                 <i class="fas fa-sign-in-alt" style="margin-right: 5px;"></i>Log In
                             </a>
                         </li>

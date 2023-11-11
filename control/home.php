@@ -15,6 +15,12 @@
         {
             $this->vista->Cargar('public_view/content_public/products');    
         }
+
+
+        public function login()
+        {
+            $this->vista->recursosP('public_view/content_public/login');
+        }
        
     }
 ?>

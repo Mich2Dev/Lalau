@@ -2,7 +2,7 @@
     class Contenido
     {
         public function recursosP($recurso){
-
+            require_once $recurso.".php";
         }
         public function Cargar($modulo){
             
