@@ -21,6 +21,10 @@
         {
             $this->vista->recursosP('public_view/content_public/login');
         }
+        public function registro()
+        {
+            $this->vista->recursosP('public_view/content_public/registro');
+        }
        
     }
 ?>

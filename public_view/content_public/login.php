@@ -129,8 +129,8 @@
             <br>
             <div class="botonera-container">
                 <button class="botonera">Iniciar</button>
-                <button class="botonera">Registrarse</button>
-                <a href="/" class="botoregreso" style="background-color: #80b3ff; border: none; text-decoration: none;">
+                <a href="registro" class="botonera">Registrarse</a>
+                <a href="/lalau" class="botoregreso" style="background-color: #80b3ff; border: none; text-decoration: none;">
                  <i class="fas fa-arrow-left"></i>
                 </a>
             </div>

@@ -90,7 +90,8 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="home/index">
+                            <!-- MIRA PICHA MUERTA NO SE TE OLVIDE CAMBIAR LA URL EN EL SERVIDOR :v  (/)  -->
+                            <a class="nav-link" href="/Lalau">
                                 <i class="fas fa-home" style="margin-right: 5px;"></i>Inicio
                             </a>
                         </li>
