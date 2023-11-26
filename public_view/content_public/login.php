@@ -40,9 +40,23 @@
             font-size: 16px;
         }
 
-        .botonera {
+        .botonera1 {
             display: block;
             width: 100%;
+            padding: 12px 20px;
+            margin-bottom: 10px;
+            border: 2px solid #ff80ab; /* Ajuste del borde para el botón de regresar */
+            border-radius: 8px;
+            background-color: #ff80ab;
+            color: #ffffff;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        .botonera2 {
+            display: block;
+            width: 87.5%;
             padding: 12px 20px;
             margin-bottom: 10px;
             border: 2px solid #ff80ab; /* Ajuste del borde para el botón de regresar */
@@ -128,8 +142,8 @@
             <br>
             <br>
             <div class="botonera-container">
-                <button class="botonera">Iniciar</button>
-                <a href="registro" class="botonera">Registrarse</a>
+                <button class="botonera1">Iniciar</button>
+                <a href="registro" class="botonera2">Registrarse</a>
                 <a href="/lalau" class="botoregreso" style="background-color: #80b3ff; border: none; text-decoration: none;">
                  <i class="fas fa-arrow-left"></i>
                 </a>
