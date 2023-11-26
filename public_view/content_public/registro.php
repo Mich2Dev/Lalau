@@ -23,11 +23,30 @@
         }
 
         .container {
+            position: relative;
             background-color: #ffffff;
             padding: 40px;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             text-align: center;
+        }
+
+        .princess-crown {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            color: gold;
+            font-size: 2em;
+            animation: pulse 1.5s infinite alternate;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            100% {
+                transform: scale(1.2);
+            }
         }
 
         h4 {
@@ -78,6 +97,7 @@
 <body>
 
 <div class="container">
+    <div class="princess-crown fas fa-crown"></div>
     <h4>Registro</h4>
     <!-- Formulario de registro -->
     <form>
@@ -99,7 +119,9 @@
         <div class="form-group">
             <input type="password" class="form-control" placeholder="Confirmar Contraseña" required>
         </div>
-        <button type="submit" class="btn btn-custom btn-block">Registrar</button>
+        <button type="submit" class="btn btn-custom btn-block">
+            <i class="fas fa-user"></i> Registrar
+        </button>
         <!-- Botón de regreso -->
         <a href="login" class="botoregreso">
             <i class="fas fa-arrow-left"></i>
