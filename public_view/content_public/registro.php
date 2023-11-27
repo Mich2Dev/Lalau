@@ -102,7 +102,7 @@
     <!-- Formulario de registro -->
     <form>
         <div class="form-group">
-            <input type="text" class="form-control" placeholder="Nombre" required>
+            <input type="text" class="form-control" placeholder="Nombre Completo" required>
         </div>
         <div class="form-group">
             <input type="text" class="form-control" placeholder="Nombre de Usuario" required>

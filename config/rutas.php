@@ -14,11 +14,11 @@
                 $inst->$accion();
             } else {
                 //en el servidor las rutas debes dejarlas /
-             header("Location: /Lalau");
+             header("Location: /");
             }
         } else {
                 //en el servidor las rutas debes dejarlas /
-            header("Location: /Lalau");
+            header("Location: /");
         }
         
             
